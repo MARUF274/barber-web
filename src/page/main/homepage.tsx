@@ -14,9 +14,10 @@ const Homepage = () => {
         <div class="testing" style={{ "background-color": "black" }}>
             <Navbar />
             <div class="hero mt-10 text-white h-[90vh] relative">
-                <div style={{position: "absolute", bottom: "5vh", left: "5vh"}}>
+                <div style={{ position: "absolute", bottom: "5vh", left: "5vh" }}>
                     <p class="header text-gold">Explore New Hairstyle</p>
                     <p class="subheader-hero">With New Technology</p>
+                    <button type="button" class="text-gray-900 bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-red-100 dark:focus:ring-red-400 font-medium rounded-xl text-lg px-5 py-2.5 text-center me-2 mb-2 mt-3">Book Now</button>
                 </div>
             </div>
             <DeviderCustom />
