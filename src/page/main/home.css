@@ -1,0 +1,67 @@
+.testing {
+    word-wrap: break-word;
+    white-space: nowrap;
+}
+
+.solid-line {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Solid white with some transparency */
+}
+
+.header {
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 100%;
+    letter-spacing: 1%;
+}
+
+.subheader {
+    font-family: Playfair Display;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 1%;
+    color: #787878;
+}
+
+.sub-title {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1%;
+
+}
+
+/* Custom styles for the gold text */
+.text-gold {
+    color: #d4af37;
+    /* A shade of gold */
+}
+
+/* Custom font size for the large title */
+.title-text {
+    font-size: clamp(2rem, 5vw, 4rem);
+    /* Responsive font size */
+    line-height: 1.1;
+}
+
+/* Custom font size for the description */
+.description-text {
+    font-size: clamp(0.8rem, 1.5vw, 1.1rem);
+    /* Responsive font size */
+}
+
+.hero {
+    background-image: url('public/img/bg-hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.subheader-hero {
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 36px;
+    letter-spacing: 1%;
+    color: #ffffff;
+}
