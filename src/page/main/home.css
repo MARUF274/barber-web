@@ -53,7 +53,7 @@
 }
 
 .hero {
-    background-image: url('public/img/bg-hero.jpg');
+    background-image: url('/img/bg-hero.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }

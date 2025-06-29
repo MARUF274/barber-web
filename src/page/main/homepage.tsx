@@ -42,7 +42,7 @@ const Homepage = () => {
                     <div class="flex items-center">
                         <div class="rounded-full overflow-hidden border-4 border-gray-700 flex items-center justify-center" style={{ height: "50vh", width: "20vw" }}>
                             <img
-                                src="public/img/main-1.png"
+                                src="/img/main-1.png"
                                 alt="Multi Angle Display"
                                 class="w-full h-full object-cover"
                             />
@@ -72,7 +72,7 @@ const Homepage = () => {
                     <div class="flex items-center justify-end">
                         <div class="rounded-full overflow-hidden border-4 border-gray-700 flex" style={{ height: "50vh", width: "20vw" }}>
                             <img
-                                src="public/img/main-2.png"
+                                src="/img/main-2.png"
                                 alt="Multi Angle Display"
                                 class="w-full h-full object-cover"
                             />
@@ -96,7 +96,7 @@ const Homepage = () => {
                     <div class="flex items-center justify-start">
                         <div class="rounded-full overflow-hidden border-4 border-gray-700 flex" style={{ height: "70vh", width: "100%" }}>
                             <img
-                                src="public/img/main-3.png"
+                                src="/img/main-3.png"
                                 alt="Multi Angle Display"
                                 class="w-full h-full object-cover"
                             />
@@ -107,7 +107,7 @@ const Homepage = () => {
                     <div class="flex items-center justify-end">
                         <div class="rounded-full overflow-hidden border-4 border-gray-700 flex items-center justify-center" style={{ height: "70vh", width: "100%" }}>
                             <img
-                                src="public/img/main-4.png"
+                                src="/img/main-4.png"
                                 alt="Multi Angle Display"
                                 class="w-full h-full object-cover"
                             />
