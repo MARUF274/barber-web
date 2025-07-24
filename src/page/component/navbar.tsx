@@ -29,13 +29,13 @@ const Navbar = () => {
               <a href="#" class="block py-2 px-3 text-white rounded-sm md:p-0" aria-current="page">Home</a>
             </li>
             <li>
-              <a href="#" class="block py-2 px-3 text-white rounded-sm md:p-0">Profile</a>
+              <a href="/profile" class="block py-2 px-3 text-white rounded-sm md:p-0">Profile</a>
             </li>
             <li>
-              <a href="#" class="block py-2 px-3 text-white rounded-sm md:p-0">Service</a>
+              <a href="/service" class="block py-2 px-3 text-white rounded-sm md:p-0">Service</a>
             </li>
             <li>
-              <a href="#" class="block py-2 px-3 text-white rounded-sm md:p-0">Testimoni</a>
+              <a href="/testimoni" class="block py-2 px-3 text-white rounded-sm md:p-0">Testimoni</a>
             </li>
             <li>
               <a href="#" class="block py-2 px-3 text-white rounded-sm md:p-0">Contact</a>

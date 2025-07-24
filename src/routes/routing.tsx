@@ -27,6 +27,9 @@ import { HopeProvider, HopeThemeConfig } from '@hope-ui/solid';
 // import ServiceMonitoring from '../page/service-monitoring/service-monitoring';
 import store from '../store/store';
 import Homepage from '../page/main/homepage';
+import Profile from '../page/profile/homepage';
+import Service from '../page/service/homepage';
+import Testimoni from '../page/testimoni/homepage';
 // import SIDDetailComponent from '../page/service-status/component/sid-detail';
 // import Topology from '../page/sid-topology/component/topology';
 // import Tabular from '../page/tabular-page';
@@ -50,13 +53,13 @@ const Root: Component = () => {
 
   function AuthGuard({ component: Component }: any) {
     const navigate = useNavigate();
-  
+
     // Effect to check token
     createEffect(() => {
       const token = store.token();
       // const token = "aaa"
       const currentPath = window.location.hash;
-  
+
       // Jika token undefined dan bukan halaman login, lempar ke login
 
       // if (!token && currentPath !== "#/login") {
@@ -74,8 +77,10 @@ const Root: Component = () => {
         <HashRouter root={ComproContainer}>
           {/* <Routes> */}
           <Route path="/" component={Homepage} />
-          {/* <Route path="/gis-view" component={Home} /> */}
-          {/* <Route path="/" component={() => <AuthGuard component={Home} />} /> */}
+          <Route path="/profile" component={Profile} />
+          <Route path="/service" component={Service} />
+
+          <Route path="/testimoni" component={() => <AuthGuard component={Testimoni} />} />
           {/* <Route path="/topo" component={Topology} /> */}
           {/* <Route path="/map-kpi" component={mapPage} /> */}
           {/* <Route path="*404" component={notFound} /> */}

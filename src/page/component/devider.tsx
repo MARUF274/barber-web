@@ -1,5 +1,6 @@
 import { AiFillStar } from "solid-icons/ai";
 import { onMount } from "solid-js";
+import { VsCircleLargeFilled } from "solid-icons/vs"
 
 
 
@@ -10,7 +11,8 @@ const DeviderCustom = () => {
     <div class="flex items-center mt-4 w-full p-4">
       <div class="flex-grow h-px solid-line rounded-full"></div>
       <div class="px-4 text-white text-lg">
-        <AiFillStar />
+        {/* <AiFillStar /> */}
+        <VsCircleLargeFilled />
       </div>
       <div class="flex-grow h-px solid-line rounded-full"></div>
     </div>
